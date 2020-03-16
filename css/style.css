@@ -1,0 +1,337 @@
+/*================
+GLOBAL STYLES
+==================
+*/
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+body{
+
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+/*
+=================
+HEADER
+=================
+*/
+.hero{
+    background :linear-gradient(to bottom right,#90A4AE,#486779);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color:white;
+	text-shadow: 2px 2px 15px #8a6990;
+	text-align: center;
+	
+	 
+	
+}
+
+h3{
+	font-size: 1.5em;
+}
+h1{
+	font-size: 4em;
+}
+h3{
+	font-size: 1.5em;
+}
+/*==============
+NAVIGATION BAR
+================
+*/
+.box{
+	width: 100%;
+	background:white;
+	color: black;
+    display: flex;
+	box-sizing: border-box;
+	margin: auto;
+	flex-direction: row;
+	justify-content:space-around;
+	background-attachment: fixed;
+
+}
+.child{
+	width:200px;
+	height: 30px;
+    padding: 10px;
+    background-color:white;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-center;
+}
+.child5{
+width:120px;
+height: 30px;
+padding: 10px;
+background-color: black;
+color: white;
+text-align: center;
+}
+/*
+===================
+OUR FEATURES
+===================
+*/
+.features{
+	width: 100%
+	height:80%;
+	background-color:lightblue;
+	
+	
+	text-align: center;
+}
+
+.col-wrapper{
+	width: 90%;
+	margin: auto;
+	padding top: 50px;
+}
+
+.features-column{
+	width:25%;
+	float: left;
+	padding:10px 30px 10px 30px;
+
+
+}
+
+.features-column img{
+	width: 200px;
+	max-width: 100%
+	
+}
+.col-wrapper::after{
+	clear: both;
+	display: table;
+	content: ""
+}
+
+
+/*
+===================
+ABOUT SECTION
+===================
+*/
+
+
+.about{
+	width: 100%;
+	margin: auto;
+    text-align: center;
+    padding-top:5%;
+    background-color: #daddea;
+   padding-bottom:5%;
+   
+   
+}
+.col2-wrapper{
+	width: 90%;
+	margin: ;
+	padding: 60px;
+
+}
+
+.about-column1{
+	width:50%;
+	float: right;
+	padding:25px 40px 25px 40px;
+	
+}
+.about-column2{
+	width:50%;
+	float: left;
+	padding:25px 40px 25px 40px;
+   
+}
+.button{
+	height:50px;	 
+	background-color: #352449;
+	color: white;
+	border-color:#352449;
+
+	border-width:2px;
+	border-radius: 0px;
+	padding: 10px 30px;
+	margin:.4rem .8rem;
+	display: inline-flex;
+	position: relative;
+}
+
+
+/*
+===================
+MORE
+===================
+*/
+
+.More{
+	width: 100%;
+	height:80%;
+	padding:35px 50px 35px 50px;
+    background-color: black;
+    color: white;
+}
+.More .left, .More .right {
+display:inline-block;
+
+}
+.More .right img {
+	height:400px;
+	width: 600px;
+	margin-left:20px;
+}
+/*
+===================
+footer
+===================
+*/
+
+.footer{
+	width: 100%;
+    padding:35px 50px 35px 50px;
+    background-color: lightpink;
+ }
+
+ 
+
+  /*
+===================
+ box
+===================
+*/
+
+
+.box2{
+
+   width: 100%;
+   height: 1400px;
+   background-color:white;
+   text-align: center;
+   margin: auto;
+   padding:50px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction:row;
+  justify-content: space-around;
+
+
+}
+
+
+.children{
+	height: 600px;
+	width: 550px;
+	background-color: white;
+	margin-top:60px;
+	padding: 15px 30px 30px 15px;
+	margin-bottom: 30px;
+ 
+	
+
+    }
+
+.children2{
+    height: 600px;
+	width: 500px;
+	background-color: white;
+	margin-top:40%; 
+    padding: 15px 30px 30px 15px;
+
+
+
+    }
+
+    h1{
+    font-size: 2.5em;
+    margin-top : 20px;  
+    }
+
+    .para{
+    	font-size:30px;
+    	text-align: center; 
+    }
+
+     .pa{
+    	font-size:20px;
+        margin: auto;
+
+    }
+
+
+/*
+===================
+PORTFOLIO
+===================
+*/
+.portfolio{
+	height: 1050px;
+	width: 100%;
+	background-color: black;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.box5{
+
+	height: 600px;
+	width: 600px;
+	background-color: black;
+	color: white;
+	margin-top:10%;
+	padding: 5%;
+
+
+}
+
+
+    
+
+
+.box3 img{
+	height: 800px;
+	width: 700px;
+	margin-top: 15%;
+	margin-bottom: 10%;
+	margin-right: 10%;
+
+ 
+	
+}
+.pgh{
+	font-size: 25px;
+}
+
+/*
+===================
+PERCENT SECTION
+===================
+*/
+.w3-container{
+	height: 800px;
+	width:100%;
+	background-color: lightblue; 
+	color: black;
+	margin:auto;
+	text-align: center; 
+	padding-top: 5%;
+	
+}
+.ab{
+	font-size: 20px;
+}
+.w3-grey{
+	height: 24px;
+	width: 20%s
+}
