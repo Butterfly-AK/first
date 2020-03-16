@@ -261,10 +261,16 @@ footer
     	text-align: center; 
     }
 
+
      .pa{
     	font-size:20px;
         margin: auto;
-
+    }
+    .f a{
+    	color:white;
+    }
+    .f{
+    	margin-top:10px;
     }
 
 
@@ -306,7 +312,6 @@ PORTFOLIO
 	margin-bottom: 10%;
 	margin-right: 10%;
 
- 
 	
 }
 .pgh{
